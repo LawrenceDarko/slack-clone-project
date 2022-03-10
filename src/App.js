@@ -30,6 +30,7 @@ function App() {
   return (
     <div className="app">
       <Router>
+        {/* To add the login make the user !user */}
         {user ? 
         (<Login />):(
           <>
