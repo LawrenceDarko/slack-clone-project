@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="app">
       <Router>
-        {!user ? 
+        {user ? 
         (<Login />):(
           <>
             <Header />
