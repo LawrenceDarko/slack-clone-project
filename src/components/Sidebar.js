@@ -18,7 +18,7 @@ const Sidebar = () => {
         <SidebarContainer>
             <SidebarHeader>
                 <SidebarInfo>
-                    <h2>Quame Group</h2>
+                    <h2>Quame's Page</h2>
                     <h3><FiberManualRecordIcon />{user?.displayName}</h3>
                 </SidebarInfo>
                 <CreateIcon />
